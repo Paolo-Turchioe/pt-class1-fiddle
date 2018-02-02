@@ -1,0 +1,29 @@
+body {
+  font-family: 'Suravaram', serif;
+}
+
+#header {
+  background: DarkSlateGrey;
+  color: WhiteSmoke;
+  padding: 34px;
+  font-size: 25px;
+  border-radius: 5px 20px 5px;
+  text-align: Left;
+}
+
+#avatar {
+  height: 100px;
+  width: 100px;
+  vertical-align: text-top;
+  border-radius: 5px 20px 5px;
+  padding: 3px;
+  border: 3px;
+  background-color: Whitesmoke;
+  position: absolute;
+  right: 15px;
+  top: 15px
+}
+
+.bx-wrapper {
+  max-width: 300px!important;
+}
