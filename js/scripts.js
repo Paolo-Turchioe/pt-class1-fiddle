@@ -6,11 +6,16 @@ $(function() {
   });
 });
 
-$(function(){
-  $('.tabs .tab-links a').on('click',function(e){
-    var currentAttrValue=$(this).attr('href');
-    $('.tabs'+currentAttrValue).show().siblings().hide();
-    $(this).parent('li').addClass('active').siblings().removeClass('active');
-  e.preventDefualt();
-});
-});
+$(document).ready(function(){
+
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
