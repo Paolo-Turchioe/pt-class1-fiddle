@@ -1,10 +1,3 @@
-$(function() {
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 300
-  });
-});
 
 $(document).ready(function(){
 
@@ -19,3 +12,11 @@ $(document).ready(function(){
 	})
 
 })
+
+$(function() {
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 300
+  });
+});
