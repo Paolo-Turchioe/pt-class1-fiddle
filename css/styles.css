@@ -24,6 +24,13 @@ body {
   top: 15px
 }
 
+#tab1content{
+  display:block;
+}
+#tab2content{
+  display:none;
+}
+
 .bx-wrapper {
   max-width: 300px!important;
 }
