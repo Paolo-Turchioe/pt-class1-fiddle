@@ -3,19 +3,25 @@ body {
 }
 
 #header {
-  text-align: center;
   background: DarkSlateGrey;
-  background-size:cover;
   color: WhiteSmoke;
+  padding: 34px;
+  font-size: 25px;
+  border-radius: 5px 20px 5px;
+  text-align: Left;
 }
 
 #avatar {
   height: 100px;
   width: 100px;
-  margin: 40px 0px 0px 0px;
-  border-radius: 20px;
+  vertical-align: text-top;
+  border-radius: 5px 20px 5px;
   padding: 3px;
-  border: 7px; WhiteSmoke;
+  border: 3px;
+  background-color: Whitesmoke;
+  position: absolute;
+  right: 15px;
+  top: 15px
 }
 
 .bx-wrapper {
