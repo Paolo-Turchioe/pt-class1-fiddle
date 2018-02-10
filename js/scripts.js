@@ -10,7 +10,7 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
 
 
-if.click(tab_id=="tab-1"){
+if(tab_id=="tab-1"){
 	$('#bxSlider1').bxSlider({
 		mode: 'fade',
     captions: true,
